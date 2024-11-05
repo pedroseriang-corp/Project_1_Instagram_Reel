@@ -10,7 +10,7 @@ pygame.init()
 # Ukuran layar dan pengaturan tampilan
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Life is better if there are feelings')
+pygame.display.set_caption('Instagram @Pedro_Seriang')
 
 # Definisi warna
 black = (0, 0, 0)
