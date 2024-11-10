@@ -23,7 +23,7 @@ font = pygame.font.SysFont('Arial', font_size)
 # Fungsi untuk menampilkan teks dengan efek "mengetik"
 def display_text(text, delay=50):
     screen.fill(black)  # Membersihkan layar dengan warna hitam
-    x, y = 10, 10       # Posisi awal teks
+    x, y = 10, 10       # Mengembalikan posisi awal teks
     for i in range(len(text) + 1):
         # Menangani event untuk keluar dari program
         for event in pygame.event.get():
